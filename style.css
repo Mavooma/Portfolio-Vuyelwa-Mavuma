@@ -179,7 +179,7 @@ nav {
 
 .nav-links a {
     font-size: 15px;
-    gap: 2rem;
+    gap: 4rem;
     color: white; /* Change the color of the navigation links */
 }
 
