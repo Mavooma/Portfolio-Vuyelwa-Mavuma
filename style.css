@@ -174,13 +174,11 @@ nav {
     display: flex;
     gap: 2rem;
     list-style: none;
+    align-items: center;
 }
 
-
 .nav-links a {
-    font-size: 15px; /* Adjust the font size as needed */
     color: white; /* Change the color of the navigation links */
-    text-decoration: none;
 }
 
 .nav-links a:hover {
@@ -191,7 +189,7 @@ nav {
 .nav-container img {
     height: 6rem; /* Adjust the height of the logo as needed */
     width: auto;
-    margin-left: 20px; /* Adjust the margin to position the logo */
+    margin-left: 5px; /* Adjust the margin to position the logo */
 }
 
 .nav-links {
