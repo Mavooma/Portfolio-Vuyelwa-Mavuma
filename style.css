@@ -463,169 +463,137 @@ footer {
 }
 
 /* Media Queries */
-/* Max-Width(991px) */
-@media (max-width:991px) {
-    /* Add your media query styles here */
-}
 
-/* Max-Width(991px) */
-@media (max-width:991px) {
-    /* Add your media query styles here */
-}
-
-/* Max-Width(768px) */
-@media (max-width:768px) {
-    /* Add your media query styles here */
-}
-
-/* Max-Width(600px) */
-@media (max-width:600px) {
-    /* Add your media query styles here */
-}
-
-
-/* ....................Start Media Scrin.................... */
-/* Max-Width(991px) */
-@media (max-width:991px) {
-    /* Start About */
+/* Max-Width 991px */
+@media (max-width: 991px) {
+    /* General Styles */
     .about-container {
         gap: 30px;
     }
     .basic-edu {
         gap: 20px;
     }
-    /* Start Experience */
     .experience-container {
         gap: 30px;
     }
-    /* Start Projects */
     .project-container {
         grid-template-columns: repeat(2, 1fr);
     }
-}
 
-/* Max-Width(991px) */
-@media (max-width: 768px) {
+    /* Navbar */
     .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background-color: #333;
-        width: 100%;
-        text-align: center;
+        display: none; /* Hide the menu by default */
     }
-
-    .nav-links li {
-        margin: 10px 0;
-    }
-
     .menu-icon {
-        display: block;
-    }
-}
-    
-    /* Start Experience*/
-    .experience-container {
-        grid-template-columns: 1fr;
+        display: block; /* Show the menu icon */
     }
 }
 
-/* Max-Width(768px) */
-@media (max-width:768px) {
+/* Max-Width 768px */
+@media (max-width: 768px) {
+    /* General Styles */
     h1 {
         font-size: 38px;
     }
-
     h2 {
         font-size: 26px;
     }
-
     a {
         font-size: 20px;
     }
-
     h3 {
         font-size: 24px;
     }
-
     .arrow {
         right: 5%;
     }
 
-    /* Start Header */
+    /* Header */
     .header-container {
         width: 90%;
         grid-template-columns: 1fr;
     }
-
     .header-left {
         width: 70%;
         margin: 0 auto;
     }
-    /* Start About */
+
+    /* About */
     .about-container {
         grid-template-columns: 1fr;
     }
-
     .about-left {
         width: 70%;
         margin: 0 auto;
     }
-
     .basic-edu {
         grid-area: 10px;
     }
 
-    /* Start Experience */
-    
+    /* Experience */
+    .experience-container {
+        grid-template-columns: 1fr;
+    }
     .experience-box {
         padding: 10px;
     }
-
     .experience {
         gap: 20px;
     }
-
     .ex-div {
         gap: 10px;
     }
 
-    /* Start Projects */
+    /* Projects */
     .project-container {
         grid-template-columns: 1fr;
     }
+
+    /* Navbar */
+    .nav-links {
+        display: none; /* Ensure it's hidden by default */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: pink;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-links li {
+        margin: 10px 0;
+    }
 }
 
-/* Max-Width(600px) */
-@media (max-width:600px) {
+/* Max-Width 600px */
+@media (max-width: 600px) {
+    /* General Styles */
     a {
         font-size: 18px;
     }
-    /* ..........Start Nav.......... */
+
+    /* Navbar */
     .nav-links {
         gap: 0;
         justify-content: space-between;
     }
 
-    /* ..........Start Contact.......... */
+    /* Contact */
     .contact-container {
         flex-direction: column;
         gap: 1rem;
     }
-    /* ..........Start Footer.......... */
-    footer {
-       padding: 0;
-       padding-bottom: 20px; 
-       width: 90%;
-       margin: auto;
-       margin-top: 9rem;
-    }
 
+    /* Footer */
+    footer {
+        padding: 0;
+        padding-bottom: 20px;
+        width: 90%;
+        margin: auto;
+        margin-top: 9rem;
+    }
     footer .nav-links {
         width: 100%;
         justify-content: space-between;
     }
 }
-/* ....................End Media Scrin.................... */

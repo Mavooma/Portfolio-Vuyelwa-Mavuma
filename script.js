@@ -1,3 +1,4 @@
+// script.js
 document.getElementById('menu-icon').addEventListener('click', function() {
     var navLinks = document.getElementById('nav-links');
     if (navLinks.style.display === 'flex') {
@@ -6,3 +7,4 @@ document.getElementById('menu-icon').addEventListener('click', function() {
         navLinks.style.display = 'flex';
     }
 });
+
